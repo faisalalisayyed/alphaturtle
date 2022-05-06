@@ -1,4 +1,4 @@
-![Logo](https://raw.githubusercontent.com/C0DE-SLAYER/alphaturtle/main/img/logo.png)
+![Logo](https://raw.githubusercontent.com/C0DE-SLAYER/alphaturtle/master/img/logo.png)
 
     > To Draw Alphabet And Number Using Turtle Module
 
@@ -31,15 +31,15 @@ pip install alphaturtle
 
 1.Run using `python alphaturtle_gui.py` 
 
-![App Screenshot](https://raw.githubusercontent.com/C0DE-SLAYER/alphaturtle/main/img/run_program.png)
+![App Screenshot](https://raw.githubusercontent.com/C0DE-SLAYER/alphaturtle/master/img/run_program.png)
 
 2.Fill All The Requried Field
 
-![App ScreenShot](https://raw.githubusercontent.com/C0DE-SLAYER/alphaturtle/main/img/fill_field.png)
+![App ScreenShot](https://raw.githubusercontent.com/C0DE-SLAYER/alphaturtle/master/img/fill_field.png)
 
 3.Hit The Draw Button :
 
-![App Screenshot](https://raw.githubusercontent.com/C0DE-SLAYER/alphaturtle/main/img/draw_button.png)
+![App Screenshot](https://raw.githubusercontent.com/C0DE-SLAYER/alphaturtle/master/img/draw_button.png)
 
 #### CLI Usage : 
 
@@ -47,11 +47,11 @@ If you have install alphaturtle using pip just run this in terminal/powershell/c
 
     alphaturtle -i python
 
-![App Screenshot](https://raw.githubusercontent.com/C0DE-SLAYER/alphaturtle/main/img/cli.png)
+![App Screenshot](https://raw.githubusercontent.com/C0DE-SLAYER/alphaturtle/master/img/cli.png)
 
 For help run `alphaturtle -h`
 
-![App Screenshot](https://raw.githubusercontent.com/C0DE-SLAYER/alphaturtle/main/img/help.png)
+![App Screenshot](https://raw.githubusercontent.com/C0DE-SLAYER/alphaturtle/master/img/help.png)
 
 #### Use Function Own :
 
@@ -76,7 +76,7 @@ Include alphaturtle in your project :
     turtle.hideturtle() # turtle method to hide the cursor
     turtle.done() # To see the output
 
-![App Screenshot](https://raw.githubusercontent.com/C0DE-SLAYER/alphaturtle/main/img/draw_button.png)
+![App Screenshot](https://raw.githubusercontent.com/C0DE-SLAYER/alphaturtle/master/img/draw_button.png)
 
 ## Limitations
 
@@ -84,5 +84,5 @@ Include alphaturtle in your project :
 
 ## License
 
-[MIT](https://github.com/C0DE-SLAYER/alphaturtle/blob/main/LICENSE.txt)
+[MIT](https://github.com/C0DE-SLAYER/alphaturtle/blob/master/LICENSE.txt)
 
