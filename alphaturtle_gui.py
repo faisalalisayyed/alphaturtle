@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter.messagebox import showwarning
+from tkinter.messagebox import showinfo, showwarning
 from alphaturtle_cli import userInput
 from colour import Color
 import re
@@ -38,7 +38,7 @@ class GUI(tk.Tk):
         tk.Label(f2).grid(row=5)
         tk.Label(f2,text='BG Color :',font=self.fs).grid(row=6,column=0,padx=5,sticky=tk.W)
         tk.Label(f2).grid(row=7)
-        tk.Button(f2,text='Help Me!',font=self.fs).grid(row=8,column=1)
+        tk.Button(f2,text='Help Me!',command=self.HelpFun,font=self.fs).grid(row=8,column=1)
 
         # entry here
         self.Esize = tk.Entry(f2,relief=tk.RIDGE,border=2)
@@ -81,6 +81,16 @@ class GUI(tk.Tk):
         self.Ethickness.delete(0,'end')
         self.Espacing.delete(0,'end')
         self.Espeed.delete(0,'end')
+
+    def HelpFun(self):
+        self.Einputtext.insert(0,'python')
+        self.Esize.insert(0,'20')
+        self.Ecolor.insert(0,'black')
+        self.Ebgcolor.insert(0,'white')
+        self.Ethickness.insert(0,'2')
+        self.Espacing.insert(0,'5')
+        self.Espeed.insert(0,'1')
+
 
     def CallingFun(self):
         # getter the value and storing it
@@ -164,7 +174,6 @@ class GUI(tk.Tk):
                 userInput(Ginputtext)
             else:
                 showwarning('warning','we cannot draw it check the string')
-
 
 if __name__ == '__main__':
     gui = GUI()
