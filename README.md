@@ -10,30 +10,25 @@
 ## Installation
 
 
-#### Gui Installation [(How To Use)](#Usage):
+#### Gui/CLI Installation [(How To Use)](#Usage):
 
 ```python
 git clone https://github.com/C0DE-SLAYER/alphaturtle
 cd alphaturtle
 pip install -r requirement.txt
-python alphaturtle_gui.py
 ```
 
-#### To Use Function On Your Own / CLI [(How To Use)](#Usage) : 
-
-```python
-pip install alphaturtle
-```
-    
 ## Usage/Examples
 
-#### Gui Usage :
+---
+### Gui Usage :
+---
 
 1.Run using `python alphaturtle_gui.py` 
 
 ![App Screenshot](https://raw.githubusercontent.com/C0DE-SLAYER/alphaturtle/master/img/run_program.png)
 
-2.Fill All The Requried Field
+2.Fill All The Requried Field. For help click the help me button
 
 ![App ScreenShot](https://raw.githubusercontent.com/C0DE-SLAYER/alphaturtle/master/img/fill_field.png)
 
@@ -41,19 +36,22 @@ pip install alphaturtle
 
 ![App Screenshot](https://raw.githubusercontent.com/C0DE-SLAYER/alphaturtle/master/img/draw_button.png)
 
-#### CLI Usage : 
+---
 
-If you have install alphaturtle using pip just run this in terminal/powershell/cmd :
+### CLI Usage :
+---
 
-    alphaturtle -i python
+1. Run using `python alphaturtle -i python`
 
 ![App Screenshot](https://raw.githubusercontent.com/C0DE-SLAYER/alphaturtle/master/img/cli.png)
 
-For help run `alphaturtle -h`
+2. For help run `python alphaturtle -h`
 
 ![App Screenshot](https://raw.githubusercontent.com/C0DE-SLAYER/alphaturtle/master/img/help.png)
 
-#### Use Function Own :
+---
+### Use Function By Your Own :
+---
 
 Include alphaturtle in your project :
 
@@ -80,7 +78,7 @@ Include alphaturtle in your project :
 
 ## Limitations
 
-- The code works fine for all capatial alphabets and numericals ,but not for special characters except dot and hipan
+- The code works fine for all capital alphabets and numbers, but not for special characters except dot and hipan
 
 ## License
 
