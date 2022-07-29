@@ -41,11 +41,11 @@ pip install -r requirement.txt
 ### CLI Usage :
 ---
 
-1. Run using `python alphaturtle -i python`
+1. Run using `python alphaturtle_cli.py -i python`
 
 ![App Screenshot](https://raw.githubusercontent.com/C0DE-SLAYER/alphaturtle/master/img/cli.png)
 
-2. For help run `python alphaturtle -h`
+2. For help run `python alphaturtle_cli.py -h`
 
 ![App Screenshot](https://raw.githubusercontent.com/C0DE-SLAYER/alphaturtle/master/img/help.png)
 
